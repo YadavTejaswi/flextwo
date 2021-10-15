@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    border: 1px solid aqua;
+}
+header{
+    color: #fff;
+    background-color: rgb(70, 177, 116);
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+aside{
+    width: 29%;
+    background-color: springgreen;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+
+
+}
+article{
+    width: 69%;
+    background-color: rgb(250, 136, 42);
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+h4{
+    margin-bottom: 30px;
+}
+.main_box{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 30.60%;
+    background-color: rgb(245, 209, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    color: #fff;
+    background-color: rgb(70, 177, 116);
+    margin: 20px 0;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+
+}
